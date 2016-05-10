@@ -2,6 +2,8 @@
 
 ### Swagger-Codegen-Tooling
 
+trigger
+
 The project provides some tooling around Maven and Gradle to generate code from OpenAPI-Specs. It comes with custom-templates to support Spring-MVC/Spring-Boot projects. Instead of generating code only once when a project starts (design phase), code will be generated at every build to make sure your code is in sync with
 your spec. So controllers/resources are generated as interfaces developers have to implement then. So changes
 in the spec should be reflected immediately on build/compile-step.
