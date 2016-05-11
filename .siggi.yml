@@ -1,5 +1,5 @@
 language: java
 
 script:
-    - mvn --settings .settings.xml install
-    - mvn --settings .settings.xml install -Pintegration
+    - mvn --settings .settings.xml install -B
+    - mvn --settings .settings.xml install -Pintegration -B
