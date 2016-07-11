@@ -1,5 +1,7 @@
 language: java
 
+sudo: true
+
 script:
     - mvn --settings .settings.xml install -B
     - mvn --settings .settings.xml install -Pintegration -B
